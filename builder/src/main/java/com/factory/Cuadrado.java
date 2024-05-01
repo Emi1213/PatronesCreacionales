@@ -1,7 +1,12 @@
-package com.emilia.galarza.factory;
+package com.factory;
 
 public class Cuadrado implements FigurasGeometricas{
     private double lado;
+
+    
+
+    public Cuadrado() {
+    }
 
     public Cuadrado(double lado) {
         this.lado = lado;

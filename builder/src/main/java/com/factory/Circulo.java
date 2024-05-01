@@ -1,7 +1,10 @@
-package com.emilia.galarza.factory;
+package com.factory;
 
 public class Circulo implements FigurasGeometricas{
     private double radio;
+
+    public Circulo() {
+    }
 
     public Circulo(double radio) {
         this.radio = radio;

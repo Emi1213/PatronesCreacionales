@@ -1,4 +1,4 @@
-package com.emilia.galarza.factory;
+package com.factory;
 
 public interface FigurasGeometricas {
     public void crear();
